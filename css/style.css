@@ -1,0 +1,527 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 140%;
+}
+
+body {
+  font-family: "TT Hoves";
+  color: #222;
+}
+section {
+  padding: 0 calc(10.6vw - 16px);
+  margin-bottom: calc(10.5vw + 18px);
+}
+section:nth-child(12) {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  width: calc(1vw + 181px);
+  margin-top: 37px;
+}
+.courseData {
+  display: flex;
+  margin-top: calc(6.3vw + 5px);
+  margin-bottom: calc(3.2vw + 36px);
+  flex-wrap: wrap;
+  gap: 30px 160px;
+  font-size: 21px;
+}
+
+.courseInfo .value {
+  font-weight: 700;
+}
+
+h1 {
+  font-family: "Chava";
+  font-size: calc(4.2vw + 26px);
+  line-height: 110%;
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: calc(1vw + 14px);
+  font-weight: 400;
+}
+
+.cta {
+  display: flex;
+  gap: 20px 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.primary {
+  flex-basis: 328px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  border-radius: 12px;
+  background: #6e3aba;
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.secondary {
+  flex-basis: 328px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  border-radius: 12px;
+  border: 1px solid #6e3aba;
+  background: white;
+  padding: 20px 0;
+  color: #6e3aba;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.wrap {
+  line-height: 140%;
+  padding: 0 120px;
+}
+.wrap h2 {
+  font-size: 58px;
+  font-weight: 500;
+  margin-bottom: 41px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.gridOne {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 470px;
+  gap: 10px;
+}
+.gridTitle {
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+.gridOne span {
+  width: 450px;
+  font-size: 27px;
+}
+
+.smaile {
+  max-width: 192px;
+  width: 100%;
+  height: 192px;
+}
+
+.purple {
+  background: purple;
+}
+.purple h3 {
+  font-size: calc(2vw + 27px);
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.56px;
+  text-align: center;
+}
+.time {
+  display: flex;
+  justify-content: space-around;
+  margin: calc(4vw + 5px) 0;
+}
+.timeBlok {
+  color: #2f1d4e;
+}
+.timeBlock .number {
+  font-family: "Chava";
+  font-size: calc(12.6vw + 13px);
+  line-height: 107.5%;
+}
+
+.timeBlock .date {
+  text-align: center;
+  font-size: calc(1.9vw + 3px);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+section.purple {
+  padding: calc(4.4vw + 23px) 0 calc(5.2vw + 22px) 0;
+}
+
+h2 {
+  color: var(--typo-black, #222);
+  font-size: calc(2.6vw + 24px);
+  font-weight: 500;
+  letter-spacing: 0.58px;
+  text-transform: uppercase;
+}
+.infoBlock {
+  margin-top: 90px;
+}
+
+.courseBlock {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px 120px;
+}
+.courseBlock:last-child {
+  margin-top: 52px;
+}
+.course {
+  width: 428px;
+}
+
+.degree {
+  width: 400px;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.course p {
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: calc(2.6vw + 24px);
+  font-weight: 500;
+  letter-spacing: 0.58px;
+  text-transform: uppercase;
+}
+
+.legend {
+  margin-top: calc(5.5vw + 19px);
+  display: flex;
+  gap: 20px 50px;
+  flex-wrap: wrap;
+}
+
+.ym {
+  flex-basis: 200px;
+  flex-grow: 1;
+}
+.ym img {
+  max-width: calc(99vw + 30px);
+}
+
+.bio {
+  flex-basis: 460px;
+  flex-grow: 3;
+}
+
+.bio h3 {
+  column-rule: #222;
+  text-transform: capitalize;
+  text-align: left;
+  font-size: calc(1vw + 34px);
+}
+
+.achievments {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: calc(1vw + 26px) calc(1vw - 23px);
+  margin-top: calc(5.5vw + 19px);
+}
+.avievment img {
+  display: block;
+}
+.avievment span {
+  display: block;
+  margin-top: 10px;
+  font-size: calc(0.5vw + 14px);
+}
+
+.prog {
+  border: 2px solid black;
+  padding: calc(4.4vw + 23px) calc(4.9vw + 2px) calc(1.3vw + 18px);
+  position: relative;
+}
+
+#corner {
+  width: calc(8vw);
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+.lesson {
+  font-size: 27px;
+  font-weight: 400;
+}
+.lesson:nth-child(1) {
+  padding: 0;
+}
+hr {
+  margin: 24px 0;
+  background: 1px solid #a1a1a1;
+}
+
+.programBtn {
+  width: 424px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+.mobile {
+  display: none;
+  margin-top: 30px;
+}
+@media (max-width: 700px) {
+  .programBtn {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  hr:last-child {
+    display: none;
+  }
+}
+
+section.diploma {
+  display: grid;
+  gap: 20px 19px;
+  grid-template-columns: 430px 1fr;
+  grid-template-areas:
+    "a b"
+    "a c";
+}
+
+.diplomaImg {
+  flex-basis: 215px;
+  flex-grow: 1;
+}
+
+.diplomaImg img {
+  width: 100%;
+  max-width: calc(145, 6vw + 284px);
+}
+.aboutDiploma {
+  flex-basis: 460px;
+  flex-grow: 2;
+}
+
+.aboutDiploma span {
+  font-size: 27px;
+  font-weight: 400;
+}
+
+.diploma img {
+  grid-area: a;
+}
+.diploma h2 {
+  grid-area: b;
+}
+.diploma span {
+  grid-area: c;
+}
+
+@media (max-width: 700px) {
+  section.diploma {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "b"
+      "a"
+      "c";
+  }
+}
+
+.vacancies p {
+  margin: 40px 0 36px 0;
+}
+.vacanciesImg img {
+  width: 100%;
+}
+
+.imgComment {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.studentboxImg {
+  flex-basis: 290px;
+  flex-grow: 1;
+}
+
+.aboutYoucomment {
+  flex-basis: 460px;
+  flex-grow: 2;
+}
+.aboutYoucomment span {
+  font-size: 21px;
+  font-weight: 400;
+  display: block;
+}
+.aboutYoucomment span:nth-child(2) {
+  padding: 25px 0;
+}
+
+.aboutUs {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 40px 97px;
+  margin-top: 80px;
+}
+.aboutTexnikum {
+  font-weight: 600;
+  max-width: 426px;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 140%;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+.aboutUsText {
+  display: inline;
+}
+.text {
+  display: grid;
+  gap: 30px 40px;
+}
+
+.feedback {
+  border-radius: 12px;
+  background: #f0f7fd;
+  padding: 50px 20px 44px;
+  flex-basis: 286px;
+  flex-shrink: 0;
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.feedback p {
+  font-size: 21px;
+  font-weight: 400;
+
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+.user {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.username {
+  font-size: 18px;
+  list-style: 140%;
+}
+
+.user img {
+  border-radius: 50%;
+}
+.feedbacks {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+section.black {
+  background: black;
+  padding: calc(5vw + 21px) calc(12vw - 23px) calc(3vw + 45px) calc(10vw - 29px);
+}
+
+.blackWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 90px;
+}
+
+.infoTexnikum {
+  color: white;
+}
+
+.black h2 {
+  width: 424px;
+  color: #fff;
+}
+
+.iconText {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* .Registration {
+} */
+.wrapRegistr {
+  background-color: #fff;
+  width: 475px;
+  border-radius: 12px;
+}
+.wrapRegistr h4 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 60px;
+}
+.wrapRegistr p {
+  text-align: center;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.inputWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0;
+  gap: 23px;
+}
+.inputRegistr {
+  border-bottom: 1px solid #a1a1a1;
+}
+.inputRegistr input {
+  text-transform: capitalize;
+  outline: none;
+  width: 338px;
+  height: 40px;
+  border: 0;
+}
+.black button {
+  border: 1px solid #6e3aba;
+  margin-bottom: 40px;
+}
+
+.questions {
+  text-align: center;
+}
+.questions p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: lowercase;
+  color: #a1a1a1;
+}
+.consultants {
+  text-align: center;
+  padding: 10px 0 50px 0;
+}
+.consultants p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: lowercase;
+  color: #a1a1a1;
+}
